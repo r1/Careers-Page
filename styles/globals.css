@@ -1,9 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: BasierSquare-Regular;
+  src: url(../public/fonts/BasierSquare-Regular.ttf);
+}
+
+@font-face {
+  font-family: BasierSquare-Medium;
+  src: url(../public/fonts/BasierSquare-Medium.ttf);
+}
+
+@font-face {
+  font-family: BasierSquare-SemiBold;
+  src: url(../public/fonts/BasierSquare-SemiBold.ttf);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: BasierSquare-SemiBold;
+  scroll-behavior: smooth;
+  background-color: #fffefc;
+}
+
+.basiersquare-regular {
+  font-family: BasierSquare-Regular;
+}
+
+.basiersquare-medium {
+  font-family: BasierSquare-Medium;
+}
+
+.basiersquare-semibold {
+  font-family: BasierSquare-SemiBold;
+}
+
+.landing {
+  background-color: #f8fafc;
+  background-image: url(../public/svgs/blur.svg);
+  background-position: 50% 0;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 a {
@@ -13,4 +53,8 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.arrow--disabled {
+  fill: #332b545d;
 }

@@ -1,3 +1,13 @@
+<div align="center">
+<h1 align="center">Careers Page</h1> 
+Tech Stack: Next.js / Framer Motion / Tailwind CSS
+<br></br>
+<img src="./images/landing.png"></img>
+<img src="./images/landing2.png"></img>
+<img src="./images/landing3.png"></img>
+<img src="./images/landing4.png"></img>
+</div>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
